@@ -1,0 +1,283 @@
+/* Estilos Gerais */
+
+.btn {
+  background: #F15025;
+  border-radius: 4px;
+  padding: 10px 40px;
+  color: #F9F9F9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.btn:hover {
+  color: #F15025;
+  background: #F9F9F9;
+}
+
+/* Header */
+
+.header {
+  width: 100%;
+  background: #171717;
+  padding: 40px 0;
+  z-index: 10;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.header_menu ul li a {
+  color: #A8A8A8;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 10px;
+}
+
+.header_menu ul li a:hover {
+  color: #F15025;
+}
+
+/* Introdução */
+
+.introducao {
+  height: 651px;
+  width: 100%;
+  background: #171717;
+  text-align: left;
+}
+
+.introducao h1 {
+  padding-top: 192px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 52px;
+  color: #F9F9F9;
+}
+
+.introducao p {
+  padding: 40px 0px 30px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  color: #A8A8A8;
+}
+
+.introducao img {
+  margin: 217px 0px 0px 40px;
+}
+
+/* Serviços */
+
+.servicos {
+  height: 400px;
+  width: 100%;
+  background: #f9f9f9;
+  text-align: left;
+}
+
+.servicos h2 {
+  padding-top: 80px;
+}
+
+.servicos h2 a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  color: #171717;
+}
+
+.servicos p {
+  padding: 30px 0px 20px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  color: #171717;
+}
+
+.servicos img {
+  margin-top: 80px;
+}
+
+/* Portfólio */
+
+.portfolio {
+  height: 565px;
+  width: 100%;
+  background: #171717;
+  text-align: center;
+}
+
+.portfolio h2 {
+  padding-top: 80px;
+}
+
+.portfolio h2 a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  color: #f9f9f9;
+}
+
+.portfolio p {
+  width: 580px;
+  padding: 40px 0px 30px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  color: #f9f9f9;
+  margin: 0 auto;
+}
+
+/* Sobre */
+
+.sobre {
+  height: 500px;
+  width: 100%;
+  background: #f9f9f9;
+  text-align: left;
+}
+
+.sobre h2 {
+  padding-top: 120px;
+}
+
+.sobre h2 a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  color: #171717;
+}
+
+.sobre p {
+  padding: 30px 0px 20px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  color: #171717;
+}
+
+.sobre img {
+  margin-top: 80px;
+}
+
+/* Contato */
+
+.contato {
+  height: 630px;
+  width: 100%;
+}
+
+.contato h2 {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.contato h2 a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  color: #171717;
+}
+
+.contato p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  color: #A8A8A8;
+  padding: 40px 0px 10px 0px;
+}
+
+.contato_form input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: #171717;
+  color: #F9F9F9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  border: none;
+  border-radius: 4px;
+  padding: 7px 10px;
+  margin-bottom: 20px;
+}
+
+.contato_form textarea {
+  display: block;
+  width: 100%;
+  height: 200px;
+  background-color: #171717;
+  color: #F9F9F9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  border: none;
+  border-radius: 4px;
+  padding: 7px 10px;
+  margin-bottom: 20px;
+}
+
+.contato_form button {
+  border: none;
+  padding: 5px 50px;
+}
+
+.contato_direct {
+  margin-left: 70px;
+}
+
+.contato_direct p {
+  margin-bottom: 3px;
+}
+
+.contato_direct ul {
+  margin-left: 100px;
+}
+
+.contato_direct ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Footer */
+
+.footer {
+  margin-top: 80px;
+  width: 100%;
+  background: #171717;
+  padding: 40px;
+  height: 150px;
+}
+
+.footer_logo p {
+  color: #f9f9f9;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 5px;
+}
+
+.footer_redes ul li {
+  display: inline-block;
+}
+
+.footer_redes ul li a {
+  margin-right: 10px;
+}
